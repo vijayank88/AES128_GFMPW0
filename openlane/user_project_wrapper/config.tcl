@@ -33,10 +33,10 @@ set ::env(VERILOG_FILES) "\
 	$::env(DESIGN_DIR)/../../verilog/rtl/user_project_wrapper.v"
 
 ## Clock configurations
-set ::env(CLOCK_PORT) "user_clock2"
-set ::env(CLOCK_NET) "mprj.wb_clk_i"
+set ::env(CLOCK_PORT) "wb_clk_i"
+#set ::env(CLOCK_NET) "mprj.wb_clk_i"
 
-set ::env(CLOCK_PERIOD) "20"
+set ::env(CLOCK_PERIOD) "15"
 
 ## Internal Macros
 ### Macro PDN Connections

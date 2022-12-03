@@ -26,7 +26,7 @@ set ::env(VERILOG_FILES) "\
 set ::env(DESIGN_IS_CORE) 0
 
 set ::env(CLOCK_PORT) "wb_clk_i"
-set ::env(CLOCK_PERIOD) "20.0"
+set ::env(CLOCK_PERIOD) "15.0"
 
 set ::env(FP_SIZING) relative
 
@@ -35,7 +35,7 @@ set ::env(PL_TARGET_DENSITY) 0.45
 
 set ::env(FP_CORE_UTIL) 30
 
-set ::env(SYNTH_MAX_FANOUT) 20
+set ::env(SYNTH_MAX_FANOUT) 4
 set ::env(NO_SYNTH_CELL_LIST) $::env(DESIGN_DIR)/no_synth.cells 
 set ::env(DRC_EXCLUDE_CELL_LIST) $::env(DESIGN_DIR)/drc_exclude.cells 
 set ::env(DRC_EXCLUDE_CELL_LIST_OPT) $::env(DESIGN_DIR)/drc_exclude.cells
